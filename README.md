@@ -1,6 +1,6 @@
 # AI Assignment
-Name - Navneet Nandakumar
-Class - AIML - A
+Name - Navneet Nandakumar  
+Class - AIML - A  
 Register Number - RA2411026050045
 
 # 🎨 Map Coloring Problem (Problem - 5)
