@@ -73,3 +73,42 @@ python app.py
 ## Sample Output
 <img width="1113" height="814" alt="image" src="https://github.com/user-attachments/assets/9628b727-4fd0-426c-842b-68a60217bde4" />
 
+# Smart Navigation System (BFS, DFS)
+
+## Problem Description
+
+The Smart Navigation System is designed to find a path between two locations in a graph. The user can input nodes, define connections between them, and specify a start and goal node. The system dynamically builds the graph and determines a valid path between the start and goal using search algorithms.
+
+---
+
+## Algorithms Used
+
+* Breadth-First Search (BFS)
+* Depth-First Search (DFS)
+
+---
+
+## Execution Steps
+
+1. Run the Python file:
+
+```bash id="p7xq2k"
+python app.py
+```
+
+2. In the GUI:
+
+* Add nodes
+* Create connections (edges) between nodes
+* Select start and goal nodes
+* Run BFS or DFS
+
+3. The system displays the path and explored nodes.
+
+---
+
+## Sample Output
+<img width="1112" height="798" alt="image" src="https://github.com/user-attachments/assets/f5a52079-0429-4260-bc35-8a8809a2c626" />
+
+<img width="1112" height="790" alt="image" src="https://github.com/user-attachments/assets/82dec22f-4333-488f-9afc-7069786f2506" />
+
