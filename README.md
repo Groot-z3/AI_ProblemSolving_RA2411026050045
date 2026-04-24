@@ -1,39 +1,7 @@
-# Map Coloring Problem (CSP)
-
-## Problem Description
-
-The Map Coloring Problem involves assigning colors to different regions such that no two adjacent regions have the same color. The number of colors is limited, and the solution must satisfy all adjacency constraints. The system allows users to input regions and their relationships through a graphical interface and computes a valid coloring.
-
----
-
-## Algorithms Used
-
-* Constraint Satisfaction Problem (CSP) formulation
-* Backtracking Search Algorithm
-* Constraint checking for validating color assignments
-
----
-
-## Execution Steps
-
-1. Run the Python file:
-
-```bash
-python app.py
-```
-
-2. In the GUI:
-
-* Add regions
-* Define adjacency between regions
-* Select available colors
-* Click **SOLVE**
-
-3. The system assigns colors and displays the result.
-
----
-
-## Sample Output
+# AI Assignment
+Name - Navneet Nandakumar
+Class - AIML - A
+Register Number - RA2411026050045
 
 # Map Coloring Problem (CSP)
 
