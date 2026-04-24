@@ -71,4 +71,5 @@ python app.py
 ---
 
 ## Sample Output
-<img width="1111" height="809" alt="image" src="https://github.com/user-attachments/assets/688bb546-a97c-4563-b00f-612bb1971b13" />
+<img width="1113" height="814" alt="image" src="https://github.com/user-attachments/assets/9628b727-4fd0-426c-842b-68a60217bde4" />
+
