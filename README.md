@@ -1,0 +1,2 @@
+# AI_ProblemSolving_RA2411026050045
+AI assignment
