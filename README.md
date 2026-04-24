@@ -3,7 +3,7 @@ Name - Navneet Nandakumar
 Class - AIML - A
 Register Number - RA2411026050045
 
-# Map Coloring Problem (Problem - 5)
+# 🎨 Map Coloring Problem (Problem - 5)
 
 ## Problem Description
 
@@ -41,7 +41,7 @@ python app.py
 ## Sample Output
 <img width="1113" height="814" alt="image" src="https://github.com/user-attachments/assets/9628b727-4fd0-426c-842b-68a60217bde4" />
 
-# Smart Navigation System (Problem - 8)
+# 🗺️ Smart Navigation System (Problem - 8)
 
 ## Problem Description
 
