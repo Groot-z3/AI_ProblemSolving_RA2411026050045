@@ -77,7 +77,7 @@ python app.py
 
 ## Sample Output
 <img width="1112" height="798" alt="image" src="https://github.com/user-attachments/assets/f5a52079-0429-4260-bc35-8a8809a2c626" />  
-BFS Solution  
+<br> <br> <br>  
 <img width="1112" height="790" alt="image" src="https://github.com/user-attachments/assets/82dec22f-4333-488f-9afc-7069786f2506" />  
 DFS Solution  
 
