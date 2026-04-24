@@ -1,130 +1,74 @@
-# 🎨 Map Coloring Problem using CSP (Tkinter GUI)
+# Map Coloring Problem (CSP)
 
-## 📌 Problem Description
+## Problem Description
 
-The Map Coloring Problem is a classic **Constraint Satisfaction Problem (CSP)** in Artificial Intelligence. The objective is to assign colors to different regions of a map such that:
-
-* No two adjacent regions share the same color
-* Only a limited set of colors is used
-
-This project provides an **interactive GUI-based solution** where users can:
-
-* Add regions dynamically
-* Define adjacency relationships
-* Select available colors
-* Visualize the colored graph
+The Map Coloring Problem involves assigning colors to different regions such that no two adjacent regions have the same color. The number of colors is limited, and the solution must satisfy all adjacency constraints. The system allows users to input regions and their relationships through a graphical interface and computes a valid coloring.
 
 ---
 
-## 🧠 Algorithms Used
+## Algorithms Used
 
-### 🔹 Constraint Satisfaction Problem (CSP)
-
-The problem is modeled as a CSP with:
-
-* **Variables** → Regions
-* **Domains** → Available colors
-* **Constraints** → Adjacent regions must have different colors
-
-### 🔹 Backtracking Search
-
-The solution uses a **recursive backtracking algorithm**:
-
-* Assign colors to regions one by one
-* Check constraints at each step
-* Backtrack when a conflict occurs
-* Continue until a valid assignment is found
-
-### 🔹 Constraint Checking
-
-A helper function ensures:
-
-* No neighboring region has the same color
+* Constraint Satisfaction Problem (CSP) formulation
+* Backtracking Search Algorithm
+* Constraint checking for validating color assignments
 
 ---
 
-## ⚙️ Execution Steps
+## Execution Steps
 
-1. Clone the repository:
-
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
-
-2. Run the application:
+1. Run the Python file:
 
 ```bash
 python app.py
 ```
 
-3. Using the GUI:
+2. In the GUI:
 
-* Add regions (e.g., A, B, C, D)
-* Define adjacency using dropdowns
+* Add regions
+* Define adjacency between regions
 * Select available colors
 * Click **SOLVE**
 
-4. View results:
-
-* Regions are colored visually
-* Solution mapping is displayed
+3. The system assigns colors and displays the result.
 
 ---
 
-## 📊 Sample Input
+## Sample Output
 
-* Regions: A, B, C, D
-* Adjacency:
+# Map Coloring Problem (CSP)
 
-  * A → B, C
-  * B → A, C, D
-  * C → A, B, D
-  * D → B, C
-* Colors: Red, Green, Blue
+## Problem Description
+
+The Map Coloring Problem involves assigning colors to different regions such that no two adjacent regions have the same color. The number of colors is limited, and the solution must satisfy all adjacency constraints. The system allows users to input regions and their relationships through a graphical interface and computes a valid coloring.
 
 ---
 
-## ✅ Sample Output
+## Algorithms Used
 
+* Constraint Satisfaction Problem (CSP) formulation
+* Backtracking Search Algorithm
+* Constraint checking for validating color assignments
+
+---
+
+## Execution Steps
+
+1. Run the Python file:
+
+```bash
+python app.py
 ```
-A → Red  
-B → Green  
-C → Blue  
-D → Red  
-```
 
-Graph visualization:
+2. In the GUI:
 
-* Each node represents a region
-* Colors are assigned dynamically
-* Edges represent adjacency
+* Add regions
+* Define adjacency between regions
+* Select available colors
+* Click **SOLVE**
+
+3. The system assigns colors and displays the result.
 
 ---
 
-## 🎯 Features
-
-* Interactive GUI using Tkinter
-* Dynamic graph creation
-* Drag-and-drop node positioning
-* Real-time constraint validation
-* Visual representation of solution
-
-## 🛠️ Tech Stack
-
-* Python
-* Tkinter (GUI)
-* Backtracking Algorithm (CSP)
-
----
-
-## 👨‍💻 Author
-
-* Your Name
-
----
-
-## 📌 Notes
-
-* If no solution exists, the system notifies the user
-* Increasing the number of colors improves solvability
+## Sample Output
+<img width="1111" height="809" alt="image" src="https://github.com/user-attachments/assets/688bb546-a97c-4563-b00f-612bb1971b13" />
