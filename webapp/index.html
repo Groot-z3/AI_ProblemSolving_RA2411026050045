@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AI Problem Solving</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="home" class="center">
+    <h1>AI Problem Solving</h1>
+    <button onclick="loadProblem(5)">Problem 5 - Map Coloring</button>
+    <button onclick="loadProblem(8)">Problem 8 - Navigation</button>
+</div>
+
+<div id="app" class="hidden">
+    <div class="sidebar">
+        <h2 id="title"></h2>
+        <div class="subtitle" id="subtitle"></div>
+
+        <div id="controls"></div>
+
+        <button onclick="goHome()">Back</button>
+    </div>
+
+    <div class="main">
+        <canvas id="canvas"></canvas>
+        <pre id="output"></pre>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
